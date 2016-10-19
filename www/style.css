@@ -1,11 +1,5 @@
 body {
 	font-size: 20px;
-	background-color: #292929;
-	background-image: url(bg.jpg);
-	background-repeat: no-repeat;
-	background-position: center bottom;
-	background-size: cover;
-	background-attachment: fixed;
 }
 
 * {
@@ -17,12 +11,12 @@ label, th, td, tr, span, li {
 }
 
 body, h1, h2, h3, h4, h5, h6 {
-	font-family: 'dezen_pro_regular', Roboto, Helvetica, Arial, sans-serif;
-	color: #ffffff;
+	font-family: 'Ubuntu Sans', sans-serif;
+	color: #000;
 }
 
 h1 {
-	color: #eeeeee;
+	color: #000;
 }
 
 form {
@@ -39,26 +33,8 @@ th label {
 	font-weight: bold;
 }
 
-::-webkit-input-placeholder {
-	color: #ccc;
-}
-
-:-moz-placeholder {
-	color: #ccc;
-	opacity: 1;
-}
-
-::-moz-placeholder {
-	color: #ccc;
-	opacity: 1;
-}
-
-:-ms-input-placeholder {
-	color: #ccc;
-}
-
 .gray {
-	color: #aaa;
+	color: #000;
 }
 
 .range-slider.vertical-range {
@@ -187,8 +163,6 @@ fieldset[disabled] textarea {
 fieldset {
 /*	border-color: #000000;*/
 	border: none;
-	box-shadow: 0 0 10px #000;
-	background: rgba(0,0,0,.4);
 }
 table {
 	background: #272727;
